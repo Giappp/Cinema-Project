@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T15:34:41.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.6" etag="HowEtes8_foTu2qlIUWD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-24T15:41:47.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="tsf5g_e0YggNl7vyXVN9" version="22.0.6" type="github">
   <diagram name="Trang-1" id="Yb5hZrFL430F6G2crJQP">
-    <mxGraphModel>
+    <mxGraphModel dx="1843" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p6pixyFtOXJixrSCyWU0-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-2" value="Xem Trang Chủ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="30" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-4" target="p6pixyFtOXJixrSCyWU0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-4" value="Xem danh sách phim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-6" value="Xem Giá vé" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-7" value="Giới thiệu trang web" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-8" value="Xem Sự Kiện" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-1" target="p6pixyFtOXJixrSCyWU0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="380" as="sourcePoint" />
+            <mxPoint x="580" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-1" target="p6pixyFtOXJixrSCyWU0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-1" target="p6pixyFtOXJixrSCyWU0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-1" target="p6pixyFtOXJixrSCyWU0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-2" target="p6pixyFtOXJixrSCyWU0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="260" as="sourcePoint" />
+            <mxPoint x="580" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p6pixyFtOXJixrSCyWU0-15" target="p6pixyFtOXJixrSCyWU0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-15" value="Chọn Phim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="30" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6pixyFtOXJixrSCyWU0-16" value="Mua vé" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="30" width="130" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
