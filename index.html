@@ -1,11 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resources/css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
 </head>
+
 <body>
-    
+  <div class="wrapper">
+    <div class="main-content">
+      <div class="header">
+        <nav class="navbar">
+          <div class="navbar-list">
+            <a class="navbar-brand" href="index.html">Logo</a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="listFilms.html">Lịch chiếu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Khuyến mãi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giá vé</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giới thiệu</a>
+              </li>
+            </ul>
+            <div class="ml-5 button">
+              <button class="register">Đăng ký</button>
+              <button class="login">Đăng nhập</button>
+            </div>
+            <div class="toggle_btn">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="dropdown">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="#">Lịch Chiếu</a></li>
+          <li><a href="#">Tin tức</a></li>
+          <li><a href="">Khuyến mãi</a></li>
+          <li><a href="">Giá vé</a></li>
+          <li><a href="">Giới thiệu</a></li>
+          <li>
+            <button class="register">Đăng ký</button>
+            <button class="login">Đăng nhập</button>
+          </li>
+        </div>
+      </div>
+      <div class="swiper-container swiper swiper-fade swiper-initialized swiper-horizontal swiper-autoheight swiper-watch-progress billboard-swiper swiper-backface-hidden">
+        <div class="swiper-wrapper" style="height: 739px;">
+          <div class="swiper-slide">
+            <div class="min-h-screen w-screen">
+              <img src="resources/img/0017064_0.webp" class="swiper-lazy">
+            </div>
+            <div class="title-wrapper">
+              <div class="header">
+                <h1 class="color-white">Đất Rừng Phương Nam</h1>
+              </div>
+              <div class="info">
+                <p>Tâm lý, Tình cảm</p>
+                <p>Việt Nam</p>
+                <p>105 phút</p>
+                <p>Đạo diễn: Nguyễn Quang Dũng</p>
+                <p>Diễn viên: Hồng Ánh, Huỳnh Hạo Khang, Mai Tài Phến, Công Ninh, Hứa Vĩ Văn, Tuyền Mập, Tuấn Trần.</p>
+                <p class="description">Sau bao ngày chờ đợi, dự án điện ảnh gợi ký ức tuổi thơ của nhiều thế hệ người
+                  Việt
+                  chính thức tung hình ảnh đầu tiên đầy cảm xúc. First look poster khắc họa hình ảnh đối lập: bé An đang
+                  ôm chặt mẹ giữa một khung cảnh chạy giặc loạn lạc. Cùng chờ đợi và theo dõi thêm hành trình bé An đi
+                  tìm
+                  cha khắp nam kỳ lục tỉnh cùng các người bạn đồng hành nhé!</p>
+              </div>
+              <div class="more">
+                <div class="text-red">
+                  Khuyến cáo: K - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM DƯỚI 13 TUỔI VÀ CÓ NGƯỜI BẢO HỘ ĐI KÈM
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-100">Slide 2</div>
+            <div class="min-h-screen w-screen">
+              <img src="resources/img/2.webp" class="swiper-lazy">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-100">Slide 3</div>
+            <div class="min-h-screen w-screen">
+              <img src="resources/img/5.webp" class="swiper-lazy">
+            </div>
+            <div class="title-wrapper">
+              <div class="header">
+                <h1 class="color-white">Kị Sĩ Bóng Đêm</h1>
+              </div>
+              <div class="info">
+                <p>Tâm lý, Tình cảm</p>
+                <p>Việt Nam</p>
+                <p>105 phút</p>
+                <p>Đạo diễn: Nguyễn Quang Dũng</p>
+                <p>Diễn viên: Hồng Ánh, Huỳnh Hạo Khang, Mai Tài Phến, Công Ninh, Hứa Vĩ Văn, Tuyền Mập, Tuấn Trần.</p>
+                <p class="description">Sau bao ngày chờ đợi, dự án điện ảnh gợi ký ức tuổi thơ của nhiều thế hệ người
+                  Việt
+                  chính thức tung hình ảnh đầu tiên đầy cảm xúc. First look poster khắc họa hình ảnh đối lập: bé An đang
+                  ôm chặt mẹ giữa một khung cảnh chạy giặc loạn lạc. Cùng chờ đợi và theo dõi thêm hành trình bé An đi
+                  tìm
+                  cha khắp nam kỳ lục tỉnh cùng các người bạn đồng hành nhé!</p>
+              </div>
+              <div class="more">
+                <div class="text-red">
+                  Khuyến cáo: K - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM DƯỚI 13 TUỔI VÀ CÓ NGƯỜI BẢO HỘ ĐI KÈM
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="site">
+        <div class="films">
+          <div class="pb-16">
+            <div class="header-title">
+              <div class="text base">
+                <div class="circle"></div>
+                <p>Phim đang chiếu</p>
+              </div>
+              <a href="listFilms.html" class="color-white base">Xem tất cả</a>
+            </div>
+            <div
+            class="swiper swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide w-220">
+                <div class="image">
+                  <img src="resources/img/0017041_0.webp" alt="" class="h290 w-220">
+                </div>
+              </div>
+              <div class="swiper-slide w-220">
+                <div class="image">
+                  <img src="resources/img/700x1000_19_.jpg" alt="" class="h290 w-220">
+                </div>
+              </div>
+              <div class="swiper-slide w-220">
+                <div class="image">
+                  <img src="resources/img/rsz_social_poster.jpg" alt="" class="h290 w-220">
+                </div>
+              </div>
+              <div class="swiper-slide w-220">
+
+              </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+              <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+            </div>
+
+          </div>
+            <div class="film-list">
+              <div class="hero">
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/datrungphuongnam.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Đất Rừng Phương Nam</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/2.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Vầng Trăng Máu</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/3webp.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Kinh dị</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Phong Ấn Quỷ Dữ</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/4.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Bước Chân Thép</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/5.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Kị sĩ bóng đêm</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/0017041_0.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Thành phố ngủ gật</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/1.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">MUÔN KIẾP NHÂN DUYÊN-T16</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/7.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Kinh dị</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">KUMANTHONG: QUỶ LINH NHI-T18</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/8.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Hành Động</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Thanh Gươm Trừ tà</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/9.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Hài, Tình Cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Nhân Duyên Tiền Đình</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/10.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Hành Động</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Biệt Đội Đánh Thuê</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/11.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Kinh Dị</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Quỷ Ám</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divide">
+            <div class="header-title">
+              <div class="text base">
+                <div class="circle"></div>
+                <p>Phim sắp chiếu</p>
+              </div>
+            </div>
+            <div class="film-list">
+              <div class="hero">
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/datrungphuongnam.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Đất Rừng Phương Nam</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/2.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Vầng Trăng Máu</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/3webp.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Kinh dị</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Phong Ấn Quỷ Dữ</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/4.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Bước Chân Thép</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/5.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Kị sĩ bóng đêm</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/0017041_0.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Tâm lý, tình cảm</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">Thành phố ngủ gật</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/6.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Hài, Hoạt Hình</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">WOLFOO VÀ HÒN ĐẢO KỲ BÍ-( lồng tiếng)-P</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/7.webp" alt="">
+                  </div>
+                  <div>
+                    <div class="utility">
+                      <p>Kinh dị</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base up">KUMANTHONG: QUỶ LINH NHI-T18</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="advertising-right">
+          <div class="header-title">
+            <div class="text base">
+              <p>Khuyến Mãi</p>
+            </div>
+            <a href="" class="color-white">Xem tất cả</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 10,
+      stretch: 50,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+  var headerSwiper = new Swiper(".swiper-container", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    }
+  })
+  const toggleBtn = document.querySelector('.toggle_btn');
+  const toggleBtnIcon = document.querySelector('.toggle_btn i');
+  const dropdown = document.querySelector('.dropdown');
+
+  toggleBtn.onclick = function () {
+    dropdown.classList.toggle('open');
+    const isOpen = dropdown.classList.contains('open');
+
+    toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+  }
+</script>
+
 </html>
