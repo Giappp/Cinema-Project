@@ -1,0 +1,176 @@
+#myModal1{
+    box-sizing: border-box;
+}
+#myModal1 .modal-content {
+    margin-left: 15vw;
+}
+#myModal1 .modal-dialog {
+    position: fixed;
+    left: 0;
+}
+#myModal1 .modal-body {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    width: 70vw;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, rgb(0, 255, 242), rgb(255, 0, 234));
+	border: 7px double;
+}
+#myModal1 .main-number {
+    padding: 0;
+    margin: 5vmin 3vmin 5vmin 3vmin;
+    width: 60vmin;
+    height: 40vmin;
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 0);
+	background-image: url(./images/luckynumberbanner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#myModal1 .number {
+	width: 395px;
+	height: 195px;
+	border: 1px solid blue;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: radial-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+	border-radius: 10px;
+}
+.number li {
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, rgba(255, 255, 0, 0.9), rgba(255, 0, 255, 0.9));
+	border-radius: 20px;
+}
+.main-number li {
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+}
+#myModal1 main {
+	display: flex;
+	flex-wrap: wrap;
+}
+#myModal1 li div>span {
+	box-sizing: border-box;
+	width: 50px;
+	height: 100px;
+	background-color: #777777;
+	background-image: radial-gradient(white, rgba(50, 50, 50, 0));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70px;
+}
+#myModal1 .lucky{
+	transition: cubic-bezier(0.075, 0.8, 0.2, 1) 8s;
+}
+
+.spin-result {
+    margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	box-sizing: border-box;
+	width: 60vmin;
+	height: auto;
+}
+.btn-spin {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	width: auto;
+	outline: none;
+}
+.spin-number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2vmax 0 2vmax 0 ;
+}
+.btn-spin:hover {
+	background-color: #00ff00;
+	color: rgb(0, 0, 0);
+	opacity: 0.8;
+}
+.btn-spin:active {
+	background-color: #00ff00;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+div .result {
+    margin: 10px 0 20px 5%;
+	padding: 0;
+	width: 90%;
+	height: auto;
+	min-height: 20vmin;
+	background-color: rgba(180, 180, 180, 0.8);
+	border: 3px solid rgb(0, 0, 255);
+}
+.result .msg-result {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: red;
+}
+.result .msg-1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 20px;
+	color: rgb(128, 0, 128);
+}
+.soluot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.spin-result h3 {
+	width: 300px;
+	height: 35px;
+	margin: 0 10px 0px 10px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #00ff0070;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
+}
+
+#myModal1 .btn-close {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 1;
+}

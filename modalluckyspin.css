@@ -1,0 +1,240 @@
+#myModal2{
+    box-sizing: border-box;
+}
+#myModal2 .modal-content {
+    margin-left: 15vw;
+	background-color: rgba(255, 255, 255, 0);
+}
+#myModal2 .modal-dialog {
+    position: fixed;
+    left: 0;
+}
+
+:root {
+	--size-wheel: 60vmin;
+}
+
+#myModal2 .modal-body {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    width: 70vw;
+    background-image: url(./images/bg_spin.png);
+	background-size: 100% auto;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px double red;
+	border-radius: 10px;
+}
+
+.msg, .msg1 {
+	margin: 0 0 0 5%;
+	padding: 0;
+	width: 90%;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	text-align: center;
+	background-color: rgba(180, 180, 180, 0.9);
+}
+.msg1 {
+	border: 8px solid rgb(150, 255, 0);
+	border-bottom: none;
+	border-radius: 20px 0 0 0;
+	font-weight: 600;
+	color: rgb(25, 0, 255);
+}
+.msg {
+	border: 8px solid rgb(255, 150, 0);
+	border-top: none;
+	border-radius: 0 0 20px 0;
+	color: rgb(255, 0, 150);
+}
+.gift {
+	min-height: 15vmin;
+}
+
+.wheel {
+	position: relative;
+	padding: 0;
+	margin: 2vmin 0;
+	width: var(--size-wheel);
+	height: var(--size-wheel);
+	border: 10px solid rgb(0, 255, 225);
+	border-radius: 50%;
+	list-style: none;
+	overflow: hidden;
+	transition: cubic-bezier(0.075, 0.8, 0.2, 1) 8s;
+}
+
+.lucky_spin {
+	display: inline-block;
+	position: relative;
+	padding: 0.5rem;
+}
+
+.lucky_spin::before {
+	content: '';
+	position: absolute;
+	top: 1rem;
+	left: 50%;
+	border-left: 2rem solid transparent;
+	border-right: 2rem solid transparent;
+	border-top: 4rem solid rgb(0, 255, 0);
+	z-index: 2;
+	transform: translateX(-50%);
+	animation: arrow ease-out 0.6s infinite;
+}
+
+@keyframes arrow {
+	0% {
+		top: -2rem;
+	}
+	80% {
+		top: 0;
+	}
+	100% {
+		top: -1.5rem;
+	}
+}
+
+.lucky_spin::after {
+	content: '';
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(255, 255, 0);
+	background-image: url(./images/tamspin.png);
+	background-size: 100% auto;
+	border-radius: 50%;
+	border: 3px solid rgb(0, 225, 255);
+}
+
+.wheel li {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+	transform-origin: 0% 100%;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: -100%;
+	width: 200%;
+	height: 200%;
+	display: block;
+	text-align: center;
+	padding-top: 1.7rem;
+	font-weight: bold;
+	color: #ffff00;
+}
+
+.text > b {
+	display: inline-block;
+	word-break: break-word;
+	max-width: 20%;
+}
+
+.text-1 {
+	background-image: url(./images/ki_si.webp);
+	background-size: 34% auto;
+	background-repeat:repeat;
+}
+.text-2 {
+	background-image: url(./images/ke_kien_tao.webp);
+	background-size: 34% auto;
+	background-repeat: repeat;
+}
+.text-3 {
+	background-image: url(./images/thanh_pho.webp);
+	background-size: 34% auto;
+	background-repeat: repeat;
+}
+.text-4 {
+	background-image: url(./images/paw_patrol.webp);
+	background-size: 34% auto;
+	background-repeat: repeat;
+}
+.text-5 {
+	background-image: url(./images/ben-pha-xac-song.webp);
+	background-size: 34% auto;
+	background-repeat: repeat;
+}
+.text-6 {
+	background-image: url(./images/sieu_lua.webp);
+	background-size: 34% auto;
+	background-repeat: repeat;
+}
+
+.btn--wheel {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	color: #fff;
+	background-color: #00ffff;
+	color: rgb(0, 0, 0);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	width: auto;
+	outline: none;
+}
+.btnspin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2vmax 0 2vmax 0 ;
+}
+.btn--wheel:hover {
+	background-color: #00ff00;
+	color: rgb(0, 0, 0);
+	opacity: 0.8;
+}
+.btn--wheel:active {
+	background-color: #00ff00;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#myModal2 main {
+	display: flex;
+	flex-wrap: wrap;
+}
+#myModal2 .main {
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#myModal2 .start_end {
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	box-sizing: border-box;
+	width: var(--size-wheel);
+	height: auto;
+}
+#myModal2 .btn-close {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 1;
+}

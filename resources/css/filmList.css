@@ -193,3 +193,8 @@ h3{
 .times .btn:hover{
     background-color: blue;
 }
+.navbar-brand img{
+    width:130px;
+    height:60px;
+    object-fit: contain;
+  }

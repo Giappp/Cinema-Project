@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a610a0c4b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./giave.css">
+    <link rel="stylesheet" href="./giave.js"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+    <title>Giá Vé</title>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<div class="header">
+    <nav class="navbar">
+      <div class="navbar-list">
+        <a class="navbar-brand" href="../index.html"><img src="../logo.png"/></a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../listFilms.html">Lịch chiếu</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sự Kiện</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Giá vé</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../gioi_thieu.html">Giới thiệu</a>
+          </li>
+        </ul>
+        <div class="ml-5 button">
+          <button class="register">Đăng ký</button>
+          <button class="login">Đăng nhập</button>
+        </div>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+  
+    <div class="dropdown menu">
+      <li><a href="../index.html">Trang chủ</a></li>
+      <li><a href="../listFilms.html">Lịch Chiếu</a></li>
+      <li><a href="">Sự Kiện</a></li>
+      <li><a href="#">Giá vé</a></li>
+      <li><a href="../gioi_thieu.html">Giới thiệu</a></li>
+      <li>
+        <button class="register">Đăng ký</button>
+        <button class="login">Đăng nhập</button>
+      </li>
+    </div>
+  </div>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Giá vé</h2>
+                <p>(Áp dụng từ ngày 01/06/2023)</p>
+            </div>
+
+            <div class="col-md-12">
+                <div class="price-2d">
+                    <div class="title-table">
+                        <h2>1. GIÁ VÉ XEM PHIM 2D</h2>
+                    </div>
+                    <div class="table-price">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th colspan="1">
+                                        <div class="text-center"></div>
+                                    </th>
+                                    <th colspan="3">
+                                        <div class="text-center">Trẻ em (người dưới 16 tuổi),<br> người cao tuổi (người
+                                            từ đủ 60 tuổi trở lên)</div>
+                                    </th>
+                                    <th colspan="3">
+                                        <div class="text-center">Người thanh niên<br>(người từ 18 tuổi trở lên)</div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div class="prb-4">Thời gian</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">Ghế thường <br>Standard</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">Ghế VIP<br>VIP</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">Ghế đôi<br>Sweetbox</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">Ghế thường <br>Standard</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">Ghế VIP<br>VIP</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">Ghế đôi<br>Sweetbox</div>
+                                    </th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Trước 12h<!-- --> <br>Before 12PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">50.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">70.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">140.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">80.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center ">200.000đ</div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Từ 12:00 đến trước 17:00<!-- --> <br>From 5PM to before 11:00PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">70.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">80.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">160.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">110.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">220.000đ</div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Từ 17:00 đến trước 23:00<!-- --> <br>From 5PM to before 11:00PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">80.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">90.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center ">190.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">130.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">140.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">280.000đ</div>
+                                    </th>
+                                </tr>
+
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Từ 23:00<!-- --> <br>From 11:00PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">90.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">200.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">120.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">130.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">260.000đ</div>
+                                    </th>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-sm text-gray">* Đối với phim có thời lượng từ 150 phút trở lên: phụ thu 10.000 VNĐ /
+                        vé</p>
+                </div>
+
+                <div class="price-2d">
+                    <div class="title-table">
+                        <h2>2. GIÁ VÉ XEM PHIM 3D</h2>
+                    </div>
+                    <div class="table-price">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th colspan="1">
+                                        <div class="text-center"></div>
+                                    </th>
+                                    <th colspan="3">
+                                        <div class="text-center">Trẻ em (người dưới 16 tuổi),<br> người cao tuổi (người
+                                            từ đủ 60 tuổi trở lên)</div>
+                                    </th>
+                                    <th colspan="3">
+                                        <div class="text-center">Người thanh niên<br>(người từ 18 tuổi trở lên)</div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div class="prb-4">Thời gian</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">Ghế thường <br>Standard</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">Ghế VIP<br>VIP</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">Ghế đôi<br>Sweetbox</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">Ghế thường <br>Standard</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">Ghế VIP<br>VIP</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">Ghế đôi<br>Sweetbox</div>
+                                    </th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Trước 12h<!-- --> <br>Before 12PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">60.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">80.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">160.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">80.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">200.000đ</div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Từ 12:00 đến trước 17:00<!-- --> <br>From 5PM to before 11:00PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">80.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">90.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">180.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">110.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">220.000đ</div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Từ 17:00 đến trước 23:00<!-- --> <br>From 5PM to before 11:00PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">110.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">220.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">130.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">140.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">280.000đ</div>
+                                    </th>
+                                </tr>
+
+
+                                <tr>
+                                    <th colspan="1">
+                                        <div>Từ 23:00<!-- --> <br>From 11:00PM</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">100.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">110.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">220.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center">120.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-center text-yellow">130.000đ</div>
+                                    </th>
+                                    <th colspan="1">
+                                        <div class="text-red text-center">260.000đ</div>
+                                    </th>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-sm text-gray">* Đối với phim có thời lượng từ 150 phút trở lên: phụ thu 10.000 VNĐ /
+                        vé</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="content-price">
+                    <p><strong>* Giá vé đối với các đối tượng khán giả ưu tiên (khi trực tiếp sử
+                            dụng dịch vụ xem phim tại rạp chiếu phim):</strong></p>
+                    <p>- Giảm 50% giá vé theo qui định đối với: Người khuyết tật nặng.</p>
+                    <p>- Giảm giá vé 100% đối với: Người khuyết tật đặc biệt nặng, trẻ em dưới
+                        0.7m đi kèm với người lớn.</p>
+                    <p><br></p>
+                    <p><strong><em>Điều kiện:</em></strong></p>
+                    <p>- Chỉ áp dụng khi mua vé tại quầy (không áp dụng khi mua online).</p>
+                    <p>- Các đối tượng khán giả trên phải xuất trình giấy tờ chứng minh khi mua
+                        vé xem phim và trước khi vào phòng chiếu. Cụ thể:</p>
+                    <p>+ Trẻ em (trường hợp trẻ em từ 14-16 tuổi), người cao tuổi: xuất trình
+                        "Căn cước công dân".</p>
+                    <p>+ Người có công với cách mạng: xuất trình giấy xác nhận theo quy định.
+                    </p>
+                    <p>+ Người có hoàn cảnh đặc biệt khó khăn: xuất trình "Giấy chứng nhận hộ
+                        nghèo".</p>
+                    <p>+ Người khuyết tật: xuất trình "Giấy xác nhận khuyết tật".</p>
+                    <p><br></p>
+                    <p><strong>* Ưu đãi cho học sinh, sinh viên
+                            từ&nbsp;</strong><strong>22</strong><strong>&nbsp;tuổi trở xuống: Đồng
+                            giá&nbsp;</strong><strong>55.000</strong><strong>đ&nbsp;/vé&nbsp;2D cho tất cả các suất
+                            chiếu phim từ&nbsp;</strong><strong>Thứ 2 đến Thứ 6</strong><strong>&nbsp;<em>(chỉ áp dụng
+                                cho hình thức mua vé trực tiếp tại quầy, mỗi thẻ được mua 1 vé/ngày - vui lòng xuất
+                                trình thẻ U22 và thẻ HSSV khi mua vé)</em>.</strong></p>
+                    <p><br></p>
+                    <p><strong>* Khán giả nghiêm túc thực hiện xem phim đúng độ tuổi theo phân
+                            loại phim: </strong><strong>P, K, T13, T16, T18, C. </strong><strong>(Trường hợp vi phạm sẽ
+                            xử phạt theo Quy định tại Nghị định 128/2022/NĐ-CP ngày 30/12/2022).</strong></p>
+                    <p><br></p>
+                    <p><strong>* Không bán vé cho trẻ em dưới 13 tuổi đối với các suất chiếu
+                            phim kết thúc sau 22h00 và không bán vé cho trẻ em dưới 16 tuổi đối với các suất chiếu phim
+                            kết thúc sau 23h00.</strong></p>
+                    <p><br></p>
+                    <p><strong>* Áp dụng giá vé ngày Lễ, Tết cho các ngày:</strong></p>
+                    <p>- Các ngày nghỉ Lễ, Tết theo quy định của nhà nước: Tết Nguyên Đán, Tết
+                        Dương Lịch, ngày Giỗ Tổ Hùng Vương 10/3 AL, ngày 30/4, 1/5, 2/9.</p>
+                    <p>- Các ngày: 14/2, 8/3, 24/12.</p>
+                    <p>- Các ngày: Nghỉ bù do nghỉ Lễ, Tết trùng vào thứ 7, Chủ Nhật.</p>
+                    <p><br></p>
+                    <p><strong>* Không áp dụng các chế độ ưu đãi, các chương trình khuyến mại
+                            khác vào các ngày 20/10, 20/11, Halloween 31/10, các ngày Lễ, Tết, suất chiếu sớm và suất
+                            chiếu đặc biệt.</strong></p>
+                    <p><br></p>
+                    <p><strong>* Mua vé xem phim tập thẻ, hợp đồng khoán gọn: Phòng chiếu phim
+                            - (024) 35148647.</strong></p>
+                    <p><br></p>
+                    <p><strong>* Thuê phòng tổ chức Hội nghị, làm văn phòng, quảng cáo và các
+                            dịch vụ khác: Phòng Dịch vụ - (024) 35142856</strong></p>
+                    <p><br></p>
+                    <p>ĐỀ NGHỊ QUÝ KHÁN GIẢ LƯU Ý KHI MUA VÉ XEM PHIM (ĐẶC BIỆT KHI MUA VÉ
+                        ONLINE). TTCPQG KHÔNG CHẤP NHẬN HOÀN TIỀN HOẶC ĐỔI VÉ ĐÃ THANH TOÁN THÀNH CÔNG KHI MUA VÉ ONLINE
+                        VÀ VÉ MUA SAI QUY ĐỊNH TẠI QUẦY VÉ.</p>
+                    <p><br></p>
+                    <p>Rất mong Quý khán giả phối hợp thực hiện.</p>
+                    <p>Xin trân trọng cảm ơn!</p>
+                    <p><br></p>
+                    <p><strong>* Ticket pricing policy for priority audiences watching movies
+                            at the cinema:</strong></p>
+                    <p>- Discount 50% on ticket price as regulations for: People with severe
+                        disabilities.</p>
+                    <p>- Discount 100% on ticket price for: People with particularly severe
+                        disabilities; Children under 0.7m accompanied by adults.</p>
+                    <p><br></p>
+                    <p><strong><em>Condition:</em></strong></p>
+                    <p>- Only applicable when buying tickets at the counter (not applicable for
+                        online tickets).</p>
+                    <p>- The above-mentioned audiences must present Identification Documents
+                        when buying movie tickets and before entering the screening room. Particularly:</p>
+                    <p>+ Teenagers (14-16 years old), elderly people: must present "ID card".
+                    </p>
+                    <p>+ Revolutionary contributors: must present a certificate as prescribed.
+                    </p>
+                    <p>+ People with difficult living conditions: must present "Certificate of
+                        Poor Household".</p>
+                    <p>+ People with disabilities: must present "Certificate of Disability".
+                    </p>
+                    <p><br></p>
+                    <p><strong>* Special promotion for student who
+                            is&nbsp;</strong><strong>22</strong><strong>&nbsp;years old and
+                            under:&nbsp;</strong><strong>From Monday to Friday
+                            55.000</strong><strong>&nbsp;đ/2D&nbsp;ticket for all slot times&nbsp;<em>(only apply for
+                                direct purchase at the ticket stall, one student card can buy one ticket/day, student
+                                should show their U22 and student cards to get this priority).</em></strong></p>
+                    <p><br></p>
+                    <p><strong>* Strict implementation of audience classification according to
+                            their ages: </strong><strong>P, K, T13, T16, T18, C.</strong><strong> (Violation will be
+                            sanctioned according to the provisions of Decree 128/2022/ND-CP dated on December 30,
+                            2022).</strong></p>
+                    <p><br></p>
+                    <p><strong>* Tickets for movies ending after 22:00 are not sold to
+                            teenagers under 13 years old and tickets for movies ending after 23:00 are not sold to
+                            teenagers under 16 years old.</strong></p>
+                    <p><br></p>
+                    <p><strong>* Holiday price is applied on:</strong></p>
+                    <p>- The public holidays as prescribed by state: New year, Lunar new year,
+                        Hung's King festival (March 10th - lunar calender), April 30th, May 1st, September 2nd.</p>
+                    <p>- Days: Valentine, Women's Day, Noel.</p>
+                    <p>- Compensatory days off due to holidays coinciding with Saturday and
+                        Sunday.</p>
+                    <p><br></p>
+                    <p><strong>* Do not apply preferential programs and different promotional
+                            ones in the day 20/10, 20/11, Halloween 31/10, holidays, sneak show and special
+                            show.</strong></p>
+                    <p><br></p>
+                    <p>VALUED AUDIENCES PLEASE TAKE INTO CONSIDERATION WHEN BUYING MOVIE
+                        TICKETS (ESPECIALLY FOR ONLINE TICKETS). THE NATIONAL CINEMA CENTER DOES NOT ACCEPT REFUNDS OR
+                        EXCHANGES OF SUCCESSFULLY PAID TICKETS (ONLINE TICKETS AND INCORRECTLY PURCHASED TICKETS AT THE
+                        COUNTER)</p>
+                    <p><br></p>
+                    <p>Thank you for your valued cooperation.</p>
+                    <p>Best Regards!</p>
+                    <p><br></p>
+                    <p>----------------------------------------------------------</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+          <div class="col-4 col-sm-4 col-lg-4 footer-1">
+            <h2>LOGO</h2>
+            <h3> Địa Chỉ Của Chúng Tôi</h3> 
+            <p><i class="material-icons">location_on</i>Số 470,Phường Láng Hạ<br/>Quận Cầu Giấy Thành Phố Hà Nội</p>
+            <p><i class="material-icons" >local_phone</i>TEL:0912216795-0986135296</p>
+            <p><i class="material-icons" >email</i>Email:khanhtoanx33@gmail.com</p>
+            
+          </div>
+          <div class="col-4 col-sm-4 col-lg-3 footer-2">
+               <h3>Về Chúng Tôi</h3>
+               <p><i class="material-icons"">person</i>Bui Khanh Toan</p>
+               <p><i class="material-icons" >person</i>Nguyen Van Giap</p>
+               <p><i class="material-icons" >person</i>Ngo duc Tung</p>
+               <p><i class="material-icons" >person</i>Nguyen Phu Huy</p>
+               <p><i class="material-icons" >person</i>Nguyen Huu Son</p>
+          </div>
+          <div class="col-3 col-sm-3 col-lg-3 footer-2">
+            <h3>Lối Tắt Cho Bạn </h3>
+            <p><i class="material-icons" >adb</i><a href="index.html">Trang chủ</a> </p>
+            <p><i class="material-icons" >adb</i><a href="listFilms.html">Lịch Chiếu</a> </p>
+
+            <p><i class="material-icons" >adb</i><a href="#"> Giá vé</a> </p>
+            <p><i class="material-icons" >adb</i><a href="#"> Sự kiện</a> </p>
+            <p><i class="material-icons" >adb</i><a href="../about ú/gioi_thieu.html"> Giới Thiệu</a> </p>
+           
+          </div>
+          <!-- <div class="col-2 col-sm-2 col-lg-2 footer-2">
+            <h3>Liên Hệ </h3>
+            <p><i class="material-icons" >email</i>Email:khanhtoanx33@gmail.com</p>
+          </div> -->
+        </div>
+      
+      </footer>
+    <script src="./giave.js"></script>
+    <script src="../thông tin phim/nav.js"></script>
+</body>
+
+</html>

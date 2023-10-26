@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="resources/css/index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -21,7 +22,7 @@
       <div class="header">
         <nav class="navbar">
           <div class="navbar-list">
-            <a class="navbar-brand" href="index.html">Logo</a>
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt=""></a>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Trang chủ</a>
@@ -30,16 +31,13 @@
                 <a class="nav-link" href="listFilms.html">Lịch chiếu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tin tức</a>
+                <a class="nav-link" href="event.html">Sự Kiện</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Khuyến mãi</a>
+                <a class="nav-link" href="gia_ve/giave.html">Giá vé</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Giá vé</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Giới thiệu</a>
+                <a class="nav-link" href="gioi_thieu.html">Giới thiệu</a>
               </li>
             </ul>
             <div class="ml-5 button">
@@ -53,18 +51,18 @@
 
         <div class="dropdown">
           <li><a href="index.html">Trang chủ</a></li>
-          <li><a href="#">Lịch Chiếu</a></li>
-          <li><a href="#">Tin tức</a></li>
-          <li><a href="">Khuyến mãi</a></li>
-          <li><a href="">Giá vé</a></li>
-          <li><a href="">Giới thiệu</a></li>
+          <li><a href="listFilms.html">Lịch Chiếu</a></li>
+          <li><a href="">Sự Kiện</a></li>
+          <li><a href="gia_ve/giave.html">Giá vé</a></li>
+          <li><a href="gioi_thieu.html">Giới thiệu</a></li>
           <li>
             <button class="register">Đăng ký</button>
             <button class="login">Đăng nhập</button>
           </li>
         </div>
       </div>
-      <div class="swiper-container swiper swiper-fade swiper-initialized swiper-horizontal swiper-autoheight swiper-watch-progress billboard-swiper swiper-backface-hidden">
+      <div
+        class="swiper-container swiper swiper-fade swiper-initialized swiper-horizontal swiper-autoheight swiper-watch-progress billboard-swiper swiper-backface-hidden">
         <div class="swiper-wrapper" style="height: 739px;">
           <div class="swiper-slide">
             <div class="min-h-screen w-screen">
@@ -144,59 +142,59 @@
               <a href="listFilms.html" class="color-white base">Xem tất cả</a>
             </div>
             <div
-            class="swiper swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide w-220">
-                <div class="image">
-                  <img src="resources/img/0017041_0.webp" alt="" class="h290 w-220">
+              class="swiper swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide w-220">
+                  <div class="image">
+                    <img src="resources/img/0017041_0.webp" alt="" class="h290 w-220">
+                  </div>
                 </div>
-              </div>
-              <div class="swiper-slide w-220">
-                <div class="image">
-                  <img src="resources/img/700x1000_19_.jpg" alt="" class="h290 w-220">
+                <div class="swiper-slide w-220">
+                  <div class="image">
+                    <img src="resources/img/700x1000_19_.jpg" alt="" class="h290 w-220">
+                  </div>
                 </div>
-              </div>
-              <div class="swiper-slide w-220">
-                <div class="image">
-                  <img src="resources/img/rsz_social_poster.jpg" alt="" class="h290 w-220">
+                <div class="swiper-slide w-220">
+                  <div class="image">
+                    <img src="resources/img/rsz_social_poster.jpg" alt="" class="h290 w-220">
+                  </div>
                 </div>
-              </div>
-              <div class="swiper-slide w-220">
+                <div class="swiper-slide w-220">
 
+                </div>
               </div>
-            </div>
-            <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
-              <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-            </div>
+              <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+              </div>
 
-          </div>
+            </div>
             <div class="film-list">
               <div class="hero">
-                <div class="item">
+                <div class="item" onclick="window.location='ben_pha_xac_song/ben_pha.html'">
                   <div class="film-img w-220 h-290">
-                    <img src="resources/img/datrungphuongnam.webp" alt="">
+                    <img src="resources/img/ben-pha-xac-song.png.webp">
                   </div>
                   <div class="item-wrapper">
                     <div class="utility">
-                      <p>Tâm lý, tình cảm</p>
+                      <p>Kinh dị</p>
                       <p>20/10/2023</p>
                     </div>
-                    <p class="color-white font-bold base">Đất Rừng Phương Nam</p>
+                    <p class="color-white font-bold base">Bến Phà Xác Sống</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='buoc_chan_thep/buoc_chan.html'">
                   <div class="film-img w-220 h-290">
-                    <img src="resources/img/2.webp" alt="">
+                    <img src="resources/img/4.webp" alt="">
                   </div>
                   <div class="item-wrapper">
                     <div class="utility">
-                      <p>Tâm lý, tình cảm</p>
+                      <p>Tâm Lý, tình cảm</p>
                       <p>20/10/2023</p>
                     </div>
-                    <p class="color-white font-bold base">Vầng Trăng Máu</p>
+                    <p class="color-white font-bold base">Bước Chân Thép</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='phong_an_quy_du/phong_an_quy_du.html'">
                   <div class="film-img w-220 h-290">
                     <img src="resources/img/3webp.webp" alt="">
                   </div>
@@ -208,31 +206,31 @@
                     <p class="color-white font-bold base">Phong Ấn Quỷ Dữ</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='biet_doi_linh_danh_thue/biet_doi.html'">
                   <div class="film-img w-220 h-290">
-                    <img src="resources/img/4.webp" alt="">
+                    <img src="resources/img/10.webp" alt="">
+                  </div>
+                  <div class="item-wrapper">
+                    <div class="utility">
+                      <p>Hành Động</p>
+                      <p>20/10/2023</p>
+                    </div>
+                    <p class="color-white font-bold base">Biệt Đội Lính Đánh Thuê</p>
+                  </div>
+                </div>
+                <div class="item" onclick="window.location='ke_kien_tao/ke_kien_tao.html'">
+                  <div class="film-img w-220 h-290">
+                    <img src="resources/img/rsz_social_poster.jpg" alt="">
                   </div>
                   <div class="item-wrapper">
                     <div class="utility">
                       <p>Tâm lý, tình cảm</p>
                       <p>20/10/2023</p>
                     </div>
-                    <p class="color-white font-bold base">Bước Chân Thép</p>
+                    <p class="color-white font-bold base up">Kẻ Kiến Tạo</p>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="film-img w-220 h-290">
-                    <img src="resources/img/5.webp" alt="">
-                  </div>
-                  <div class="item-wrapper">
-                    <div class="utility">
-                      <p>Tâm lý, tình cảm</p>
-                      <p>20/10/2023</p>
-                    </div>
-                    <p class="color-white font-bold base up">Kị sĩ bóng đêm</p>
-                  </div>
-                </div>
-                <div class="item">
+                <div class="item" onclick="window.location='thanh_pho/thanh_pho_ngu_gat.html'">
                   <div class="film-img w-220 h-290">
                     <img src="resources/img/0017041_0.webp" alt="">
                   </div>
@@ -244,7 +242,7 @@
                     <p class="color-white font-bold base up">Thành phố ngủ gật</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='muon_kiep_nhan_duyen/muon_kiep.html'">
                   <div class="film-img w-220 h-290">
                     <img src="resources/img/1.webp" alt="">
                   </div>
@@ -256,7 +254,7 @@
                     <p class="color-white font-bold base up">MUÔN KIẾP NHÂN DUYÊN-T16</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='kuman_quy_thong_linh/KUMAN.html'">
                   <div class="film-img w-220 h-290">
                     <img src="resources/img/7.webp" alt="">
                   </div>
@@ -268,19 +266,19 @@
                     <p class="color-white font-bold base up">KUMANTHONG: QUỶ LINH NHI-T18</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='paw_patrol/paw_patrol.html'">
                   <div class="film-img w-220 h-290">
-                    <img src="resources/img/8.webp" alt="">
+                    <img src="resources/img/paw_patrol.webp" alt="">
                   </div>
                   <div class="item-wrapper">
                     <div class="utility">
-                      <p>Hành Động</p>
+                      <p>Hoạt Hình</p>
                       <p>20/10/2023</p>
                     </div>
-                    <p class="color-white font-bold base up">Thanh Gươm Trừ tà</p>
+                    <p class="color-white font-bold base up">PAW PATROL: PHIM SIÊU ĐẲNG</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='nhan_duyen_tien_dinh/tien_dinh.html'">
                   <div class="film-img w-220 h-290">
                     <img src="resources/img/9.webp" alt="">
                   </div>
@@ -292,19 +290,19 @@
                     <p class="color-white font-bold base up">Nhân Duyên Tiền Đình</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='sieu_lua_gap_sieu_lay/sieu_lua.html'">
                   <div class="film-img w-220 h-290">
-                    <img src="resources/img/10.webp" alt="">
+                    <img src="resources/img/sieu_lua copy.webp" alt="">
                   </div>
                   <div class="item-wrapper">
                     <div class="utility">
-                      <p>Hành Động</p>
+                      <p>Hài</p>
                       <p>20/10/2023</p>
                     </div>
-                    <p class="color-white font-bold base up">Biệt Đội Đánh Thuê</p>
+                    <p class="color-white font-bold base up">Siêu lừa gặp siêu lầy</p>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="window.location='quy_am_tin_do/quy_am.html'">
                   <div class="film-img w-220 h-290">
                     <img src="resources/img/11.webp" alt="">
                   </div>
@@ -437,7 +435,40 @@
           </div>
         </div>
       </div>
+      <div class="divide mt-4" style="max-width: 100vw !important;">
+        <footer>
+          <div class="row">
+            <div class="col-4 col-sm-4 col-lg-4 footer-1">
+              <img src="./395161311_702151611528727_2617082832808105942_n.png" />
+              <h3> Địa Chỉ Của Chúng Tôi</h3>
+              <p><i class="material-icons">location_on</i>Số 470,Phường Láng Hạ<br />Quận Cầu Giấy Thành Phố Hà Nội</p>
+              <p><i class="material-icons">local_phone</i>TEL:0912216795-0986135296</p>
 
+            </div>
+            <div class="col-4 col-sm-4 col-lg-3 footer-2">
+              <h3>Về Chúng Tôi</h3>
+              <p><i class="material-icons">person</i>Bui Khanh Toan</p>
+              <p><i class="material-icons">person</i>Nguyen Van Giap</p>
+              <p><i class="material-icons">person</i>Ngo duc Tung</p>
+              <p><i class="material-icons">person</i>Nguyen Phu Huy</p>
+              <p><i class="material-icons">person</i>Nguyen Huu Son</p>
+            </div>
+            <div class="col-3 col-sm-3 col-lg-3 footer-2">
+              <h3>Lối Tắt Cho Bạn </h3>
+              <p><i class="material-icons">adb</i><a href="#">Trang chủ</a> </p>
+              <p><i class="material-icons">adb</i><a href="#"> Giá vé</a> </p>
+              <p><i class="material-icons">adb</i><a href="#"> Sự kiện</a> </p>
+              <p><i class="material-icons">adb</i><a href="#"> Giới Thiệu</a> </p>
+
+            </div>
+            <!-- <div class="col-2 col-sm-2 col-lg-2 footer-2">
+            <h3>Liên Hệ </h3>
+            <p><i class="material-icons" >email</i>Email:khanhtoanx33@gmail.com</p>
+          </div> -->
+          </div>
+
+        </footer>
+      </div>
     </div>
   </div>
 </body>
