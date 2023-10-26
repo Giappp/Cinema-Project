@@ -1,6 +1,6 @@
 # Cinema-Project
 
-# University of Transport and Communication
+# University of Transport and Communications
 Group 12 - IT02 - K63
 
 Leader: Bùi Khánh Toàn
